@@ -9,5 +9,8 @@ $('.page-scroll').on('click', function(){
     e.preventDefault();
  });
  
-
- 
+$(function (){
+   $('[data-bs-toggle="popover"]').popover({
+       trigger: 'hover focus'
+    });
+});
